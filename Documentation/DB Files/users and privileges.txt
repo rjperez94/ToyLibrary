@@ -1,0 +1,25 @@
+CREATE USER 'DBManager'@'localhost';
+GRANT ALL PRIVILEGES ON *.* TO 'DBManager'@'localhost' WITH GRANT OPTION;
+
+CREATE USER 'ToyManager'@'localhost';
+GRANT CREATE, DROP, RELOAD, SHUTDOWN, PROCESS, FILE, INDEX, ALTER, CREATE TEMPORARY TABLES, EXECUTE, CREATE VIEW, SHOW VIEW, CREATE ROUTINE, ALTER ROUTINE, CREATE USER, EVENT, TRIGGER ON *.* TO 'ToyManager'@'localhost' WITH GRANT OPTION;
+GRANT SELECT, INSERT, UPDATE, DELETE ON `toylib`.* TO 'ToyManager'@'localhost';
+
+CREATE USER 'Volunteers'@'localhost';
+GRANT USAGE ON *.* TO 'Volunteers'@'localhost';
+GRANT SELECT, INSERT, UPDATE, DELETE ON `toylib`.`members` TO 'Volunteers'@'localhost';
+GRANT SELECT, INSERT, UPDATE ON `toylib`.`loaned` TO 'Volunteers'@'localhost';
+GRANT SELECT, UPDATE ON `toylib`.`toys` TO 'Volunteers'@'localhost';
+
+CREATE USER 'Members'@'localhost';
+GRANT USAGE ON *.* TO 'Members'@'localhost';
+GRANT SELECT, UPDATE ON `toylib`.`members` TO 'Members'@'localhost';
+GRANT SELECT ON `toylib`.`toys` TO 'Members'@'localhost'; 
+GRANT SELECT ON `toylib`.`loaned` TO 'Members'@'localhost';
+SET PASSWORD FOR 'Members'@'localhost' = PASSWORD('****************');
+
+GRANT CREATE USER ON *.* TO 'Guest'@'localhost' IDENTIFIED BY PASSWORD '*5687840A69186CAE4C498B39777FFB6F06AB0EF7' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON `mysql`.* TO 'Guest'@'localhost' WITH GRANT OPTION;
+GRANT SELECT ON `toylib`.`loaned` TO 'Guest'@'localhost';
+GRANT SELECT, INSERT, UPDATE ON `toylib`.`members` TO 'Guest'@'localhost';
+GRANT SELECT ON `toylib`.`toys` TO 'Guest'@'localhost';
