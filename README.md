@@ -3,7 +3,7 @@
 #Setup
 1. Download and install XAMPP from <a href="https://www.apachefriends.org/index.html">here</a>
 2. Start Apache and MySQL module (You may need to install their respective services)
-3. Go to `http://localhost/phpmyadmin/` on your browser
+3. Go to <a href="http://localhost/phpmyadmin/"></a> on your browser
 4. Create a database using root account and name it `toylib` with collation `utf8_general_ci` and DB type `InnoDB`
 5. Then go to Import tab, and import `Documentation/DB Files/toylib FINAL.sql`
 6. Go to Loaned table, click `Structure -> Relation View`. 
@@ -20,7 +20,7 @@
 14. Open directory `XAMPP -> htdocs` and make a new folder called `toylib` (You may change the name, if you want)
 15. Clone this repository to that `toylib` folder. You may exclude the Documentation folder as you wish
 
-You can now view the site my going to `localhost/toylib` in your browser. <strong>Make sure that the Apache and MySQL modules are started before you do this</strong>
+You can now view the site my going to <a href="localhost/toylib"></a> in your browser. <strong>Make sure that the Apache and MySQL modules are started before you do this</strong>
 
 
 Please <a href="https://github.com/rjperez94/ToyLibrary/blob/master/Documentation/Brief%20for%203.41.pdf">click here</a> for more information about this project
