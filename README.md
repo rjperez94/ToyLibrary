@@ -1,7 +1,7 @@
 # ToyLibrary
 
 #Setup
-1. Download and install XAMPP from `https://www.apachefriends.org/index.html`
+1. Download and install XAMPP from <a href="https://www.apachefriends.org/index.html">here</a>
 2. Start Apache and MySQL module (You may need to install their respective services)
 3. Go to `http://localhost/phpmyadmin/` on your browser
 4. Create a database using root account and name it `toylib` with collation `utf8_general_ci` and DB type `InnoDB`
