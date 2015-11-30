@@ -1,6 +1,6 @@
 # ToyLibrary
 
-#Setup
+##Setup
 1. Download and install XAMPP from `https://www.apachefriends.org/index.html`
 2. Start Apache and MySQL module (You may need to install their respective services)
 3. Go to `http://localhost/phpmyadmin/` on your browser
@@ -22,5 +22,5 @@
 
 You can now view the site my going to "localhost/toylib" in your browser. Make sure that the Apache and MySQL modules are started before you do this
 
-
+##More Info
 Please <a href="https://github.com/rjperez94/ToyLibrary/blob/master/Documentation/Brief%20for%203.41.pdf">click here</a> for more information about this project
