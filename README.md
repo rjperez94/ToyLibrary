@@ -20,7 +20,7 @@
 14. Open directory `XAMPP -> htdocs` and make a new folder called `toylib` (You may change the name, if you want)
 15. Clone this repository to that `toylib` folder. You may exclude the Documentation folder as you wish
 
-You can now view the site my going to <a href="https://www.localhost/toylib">http://localhost/phpmyadmin/</a> in your browser. <strong>Make sure that the Apache and MySQL modules are started before you do this</strong>
+You can now view the site my going to <a href="https://www.localhost/toylib">http://localhost/toylib/</a> in your browser. <strong>Make sure that the Apache and MySQL modules are started before you do this</strong>
 
 
 Please <a href="https://github.com/rjperez94/ToyLibrary/blob/master/Documentation/Brief%20for%203.41.pdf">click here</a> for more information about this project
