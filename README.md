@@ -1,6 +1,6 @@
 # ToyLibrary
 
-#Setup
+# Setup
 1. Download and install XAMPP from <a href="https://www.apachefriends.org/index.html">here</a>
 2. Start Apache and MySQL module (You may need to install their respective services)
 3. Go to <a href="http://www.localhost/phpmyadmin/">http://localhost/phpmyadmin/</a> on your browser
